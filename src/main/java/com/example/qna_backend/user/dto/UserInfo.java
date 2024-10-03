@@ -1,4 +1,4 @@
-package com.example.user.dto;
+package com.example.qna_backend.user.dto;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -13,4 +13,5 @@ public class UserInfo {
 
     private String username;
 
+    private String password;
 }
